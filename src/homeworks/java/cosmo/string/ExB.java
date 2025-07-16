@@ -9,7 +9,7 @@ package homeworks.java.cosmo.string;
  */
 public class ExB {
     public static void main(String[] args) {
-        String input = "Мама мыла Милу мылом!";
-
+        StringBuilder input = new StringBuilder("Мама мыла Милу мылом!");
+        System.out.println(input.reverse());
     }
 }
